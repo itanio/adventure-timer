@@ -1,0 +1,25 @@
+#root {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.App {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+}
+
+.App > header {
+  padding: 1rem 0;
+  width: 100vw;
+  max-width: 1184px;
+  margin-bottom: 2rem;
+}
+
+.App > footer {
+  padding: 1rem 0;
+}
